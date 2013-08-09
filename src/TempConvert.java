@@ -8,7 +8,7 @@ public class TempConvert{
 		Scanner kbrd = new Scanner(System.in);
 		int tempF, tempC;
 		
-		System.out.print("Enter a temperature in degree Fahrenheit: ");
+		System.out.print("Enter a temperature in degrees Fahrenheit: ");
 		tempF = kbrd.nextInt();
 		tempC = (tempF - 32 ) * 5 / 9;
 		
